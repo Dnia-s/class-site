@@ -1,9 +1,26 @@
 body {
-  background-color:#CDB4DB;
-  align-items: center;
+  background-color: rgb(206, 211, 220);
+}
+
+h1 {
+    border: 7px solid rgb(8, 127, 140);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 36px;
+    color: rgb(8, 127, 140);
+    /* margin: 100px 100px; */
+    width: 400px;
+}
+
+.center {
+  margin: auto;
+  width: 35%;
+  border: none;
+  padding: 10px;
 }
 
 ul {
-  border: 10px dashed white;
+  border: 10px dashed rgb(8, 127, 140);
+  width: 400px;
   font-size: 20px;
 }
