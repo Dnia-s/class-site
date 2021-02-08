@@ -1,7 +1,9 @@
 body {
-  background-color:lightblue;
+  background-color:#CDB4DB;
+  align-items: center;
 }
 
 ul {
   border: 10px dashed white;
+  font-size: 20px;
 }
