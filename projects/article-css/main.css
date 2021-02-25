@@ -1,0 +1,31 @@
+body {
+background: rgb(248, 237, 235);
+}
+details {
+  border-left: 6px solid rgb(255, 181, 167);
+  background-color: rgb(252, 213, 206, 0.50);
+}
+summary {
+font-family: 'Playfair Display',serif;
+font-style: italic;
+font-weight: 900;
+font-size: 24px;
+color:
+}
+
+p {
+  font-family: 'Playfair Display',serif;
+  font-style: semi-bold;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+h1 {
+  font-family: 'Playfair Display',serif;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.p1 {
+  text-align: center;
+}
