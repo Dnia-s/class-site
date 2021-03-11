@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(247, 237, 226);
+  background-color: rgb(194, 231, 217);
 }
 
 h1 {
@@ -16,7 +16,7 @@ h1 {
     font-weight: 900;
     font-size: 56px;
     text-align: center;
-    color: rgb(132, 165, 157);
+    color: rgb(38, 64, 139);
     /* margin: 100px 100px; */
     width: 600px;
 }
@@ -52,5 +52,5 @@ ul li{
 }
 
 li {
-  color: rgb(246, 189, 96);
+  color: rgb(15, 8, 75);
 }
