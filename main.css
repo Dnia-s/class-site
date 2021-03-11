@@ -4,6 +4,8 @@
 
 body {
   background-color: rgb(194, 231, 217);
+  justify-content:space-around;
+  align-content: center;
 }
 
 h1 {
