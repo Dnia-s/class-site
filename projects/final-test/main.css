@@ -1,9 +1,10 @@
-* {
+*{
   box-sizing: border-box;
 }
 
 body {
   margin:0;
+  /* background-image: url(web-final.jpg); */
 }
 
 .grid-container {
@@ -11,8 +12,8 @@ body {
    flex-wrap: wrap;
    height: 100vh;
    width: 100%;
+   background: yellow;
 }
-
 .grid-row {
   display: flex;
   height: 25%;
@@ -20,48 +21,37 @@ body {
 }
 
 .grid-item {
- background: #e9c369ff;
+ background: white;
  width: 100%;
  height: 100%;
  position: relative;
 }
 
-.red {
-  background: #e76f51ff;
+.blue{
+  background: blue;
 }
 
-.blue {
-  background: #2a9d8fff;
-}
-
-.draggable {
+.draggable{
   width: 100%;
   height:100%;
-  background: #e76f51ff;
+  background: red;
   position: absolute;
   top: 0;
   left:0;
   z-index:99;
 }
 
-.draggable2 {
-  width: 100%;
-  height:100%;
-  background: #2a9d8fff;
-  position: absolute;
-  top: 0;
-  left:0;
-  z-index:99;
-}
-
-.image {
-background-image: url(el.png);
+.image-box{
+background-image: url(web-final.jpg);
 background-size: cover;
 background-position: center;
 }
-
-.image2 {
-background-image: url(dino.png);
-background-size: cover;
-background-position: center;
+.grid-item2{
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 4
 }
+.grid-item3{
+  grid-column-start: 1;
+  grid-row-start: 3;
+  grid-row-end: 4

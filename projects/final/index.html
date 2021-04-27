@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html
-  <head>
-    <title>title</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-  </head>
-  <body>
-    <!-- <img src="web-final.jpg"> -->
+<html <head>
+<title>title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="main.css">
+<script src="jquery-3.6.0.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script>
+  $(function() {
+    $(".draggable").draggable();
+  });
+</script>
+<script>
+  $(function() {
+    $(".draggable2").draggable();
+  });
+</script>
+</head>
 
-  </body>
+<body>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-item red">1</div>
+      <div class="grid-item image">2
+        <div class="draggable2">drag</div>
+      </div>
+      <div class="grid-item red">3</div>
+      <div class="grid-item blue">4</div>
+      <div class="grid-item image2">5
+        <div class="draggable">drag</div>
+      </div>
+      <div class="grid-item blue">6</div>
+      <div class="grid-item">7
+        <div class="draggable">drag</div>
+      </div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-item blue">8</div>
+      <div class="grid-item red">9</div>
+      <div class="grid-item">10
+        <div class="draggable2">drag</div>
+      </div>
+      <div class="grid-item red">11</div>
+      <div class="grid-item blue">12</div>
+      <div class="grid-item red">13</div>
+      <div class="grid-item blue">14</div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-item">15
+        <div class="draggable">drag</div>
+      </div>
+      <div class="grid-item blue">16</div>
+      <div class="grid-item red">17</div>
+      <div class="grid-item">18
+        <div class="draggable2">drag</div>
+      </div>
+      <div class="grid-item red">19</div>
+      <div class="grid-item">20
+        <div class="draggable2">drag</div>
+      </div>
+      <div class="grid-item red">21</div>
+    </div>
+    <div class="grid-row">
+      <div class="grid-item blue">22</div>
+      <div class="grid-item">23
+        <div class="draggable">drag</div>
+      </div>
+      <div class="grid-item blue">24</div>
+      <div class="grid-item red">25</div>
+      <div class="grid-item blue">26</div>
+      <div class="grid-item red">27</div>
+      <div class="grid-item blue">28</div>
+    </div>
+  </div>
+
+</body>
+
 </html>
