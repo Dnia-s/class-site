@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+  background-image: url(https://media.giphy.com/media/W5xuZ2K7kMsG8EGETt/giphy.gif);
+}
+
+.grid-container {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100vh;
+   width: 100%;
+}
+
+.column {
+  display: flex;
+  height: 100%;
+  width: 33%;
+  /* background: red; */
+}
+
+.white {
+  /* background: white; */
+}
+
+.grid {
+  width: 100%;
+ height: 100%;
+ align-items: center;
+/* position: relative; */
+
+}
