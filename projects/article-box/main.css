@@ -3,46 +3,39 @@
 }
 
 body {
-background: rgb(248, 237, 235);
+background: #e9fae3;
 }
 details {
-  border-left: 6px solid rgb(255, 181, 167);
-  background-color: rgb(252, 213, 206, 0.50);
+  /* border-left: 6px solid rgb(255, 181, 167);
+  background-color: rgb(252, 213, 206, 0.50); */
 }
 summary {
 font-family: 'Playfair Display',serif;
 font-style: italic;
 font-weight: 900;
 font-size: 24px;
-color:
+color: #e18ad4;
 }
 
 p {
   font-family: 'Playfair Display',serif;
   font-style: Medium;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 strong {
   font-family: 'Playfair Display',serif;
   font-style: bold;
   font-weight: 700;
-}
-
-.top {
-height: 20%;
-width: 100%;
-display: flex;
-padding: 20px;
+  color: #eeb1d5;
 }
 
 .p1 {
-  height: 50%;
-  width: 70%;
-  padding: 30px;
-  box-sizing: border-box;
-  text-align: center;
+  /* height: 50%;
+  width: 70%; */
+  /* padding: 30px;
+  box-sizing: border-box; */
 }
 
 h1 {
@@ -50,12 +43,12 @@ h1 {
   font-style: italic;
   font-weight: 500;
   text-align: center;
+  color: #71c100;
 }
 
 .p2 {
   padding: 20px;
   box-sizing: border-box;
-  text-align: center;
   word-wrap: break-word;
 }
 
@@ -64,6 +57,7 @@ h2 {
   font-style: italic;
   font-weight: 500;
   text-align: center;
+  color: #71c100;
 }
 
 h3 {
@@ -71,32 +65,47 @@ h3 {
   font-style: italic;
   font-weight: 900;
   text-align: center;
+  color: #54ba49;
 }
 
-.middle {
-  height: 20%;
-  width: 100%;
-  padding: 20px;
+.main-container {
+   max-width: 1200px;
+   margin: auto;
+   align-items: center;
 }
 
-.bottom {
-  height: 20%;
+.column {
+  height: 25%;
   width: 100%;
-  padding: 20px;
+}
+
+.center {
+  height: 55%;
+  width: 100%;
 }
 
 .p3 {
-  height: 20%;
+  height: 50%;
   width: 100%;
-  display: flex;
-  justify-content:space-around;
+  display: block;
   text-align: center;
+}
+
+a:link, a:visited {
+  color: #71c100;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: #ffc8dd;
 }
 
 u {
   font-family: 'Playfair Display',serif;
   font-style: bold;
   font-weight: 700;
+  color: #71c100;
 }
 
 ul li {
@@ -107,5 +116,7 @@ ul li {
 }
 
 img {
-float: right;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

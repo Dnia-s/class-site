@@ -115,9 +115,18 @@ cb-slideshow,
     transform: translateY( calc(100vh - 500px) );
   }
 }
-.parent {
-height: 100%;
+
+.main {
+display: flex;
+flex-wrap: wrap;
+height: 100vh;
 width: 100%;
+}
+
+.column {
+display: flex;
+height: 90%;
+width: 33%;
 /* position: relative; */
 align-items: center;
 }
@@ -127,18 +136,11 @@ width: 700px;
 height: 700px;
 position: absolute;
 /* top: 20%; */
-left: 30%;
-margin: 50px 50px;
+/* left: 30%;
+margin: 50px 50px; */
 animation-name: bounce;
 animation-duration: 1s;
 animation-iteration-count: infinite;
-}
-
-.parents {
-height: 100%;
-width: 100%;
-/* position: relative; */
-align-items: center;
 }
 
 .balls {
@@ -146,18 +148,11 @@ width: 700px;
 height: 700px;
 position: absolute;
 /* top: 20%; */
-left: 60%;
-margin: 50px 50px;
+/* left: 60%;
+margin: 50px 50px; */
 animation-name: bounce;
 animation-duration: 1s;
 animation-iteration-count: infinite;
-}
-
-.paren {
-height: 100%;
-width: 100%;
-/* position: relative; */
-align-items: center;
 }
 
 .bal {
@@ -165,8 +160,8 @@ width: 700px;
 height: 700px;
 position: absolute;
 /* top: 20%; */
-left: 7%;
-margin: 50px 50px;
+/* left: 7%;
+margin: 50px 50px; */
 animation-name: bounce;
 animation-duration: 1s;
 animation-iteration-count: infinite;
