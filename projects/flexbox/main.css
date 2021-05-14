@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.column {
+display: flex;
+ /* background: white; */
+ width: 33.3%;
+ height: 100%;
+}
+
+.line {
+  height: 100%;
+  width: 30%;
+  /* background: yellow; */
+  position: relative;
+}
+
+.one{
+  background: #05668d;
+}
+
+.two {
+  background: #028090
+}
+
+.three{
+  background: #00a896;
+}
+.four {
+  background: #02c39a;
+}
+
+.five {
+  background: #5dd39e;
+}
+
+.six {
+  background: #f0f3bd;
+}
+
+.seven {
+  background: #f0f3bd;
+}
+
+.eight {
+  background: #5dd39e;
+}
+
+.nine {
+  background: #02c39a;
+}
+
+.ten{
+  background:#00a896;
+}
+
+.eleven{
+  background: #028090;
+}
+
+.twelve{
+  background: #05668d;
+}
+
+.middle {
+ /* background: red; */
+ width: 33.3%;
+ height: 100%;
+ display: block;
+ background-image: url(https://media.giphy.com/media/l46CaRtK45BCMWKNW/giphy.gif);
+ background-size: cover;
+}
+
+.top {
+  width: 100%;
+  height: 50%;
+  background: #f7f9dd;
+  background-image: url(https://media.giphy.com/media/l46CaRtK45BCMWKNW/giphy.gif);
+  background-size: cover;
+}
+
+.bottom {
+  width: 100%;
+  height: 50%;
+  background: #f7f9dd;
+  background-image: url(https://media.giphy.com/media/L0Z3Gj2HL3cirQqW1w/giphy.gif);
+  background-size: cover;
+}
