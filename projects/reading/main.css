@@ -1,3 +1,84 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin:0;
+  background: #fcd5ce;
+}
+
+h1 {
+  text-align: center;
+  font-family: shuriken-std,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fdfffc;
+  text-shadow: 5px 5px #f06543;
+}
+
+a:link, a:visited {
+  color: #f06543;
+  text-decoration: none;
+  display: inline-block;
+  font-family: shuriken-std,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+a:hover, a:active {
+  background-color: #fdfffc;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100%;
+}
+
+.column {
+display: flex;
+ /* background: white; */
+ width: 25%;
+ height: 100%;
+}
+
+.middle {
+ /* background: red; */
+ width: 50%;
+ height: 100%;
+ display: block;
+}
+
+.one {
+  width: 100%;
+  height: 66%;
+  background-image: url(hello-world.png);
+  background-size: contain;
+  /* background: #f7f9dd; */
+}
+
+.two {
+  width: 100%;
+  height: 66%;
+  background-image: url(a-friend-is.png);
+  background-size: contain;
+  /* background: #f7f9dd; */
+}
+
+.three {
+  width: 100%;
+  height: 66%;
+  background-image: url(frank-chimero.png);
+  background-size: contain;
+  /* background: #f7f9dd; */
+}
+
+.four {
+  width: 100%;
+  height: 66%;
+  background-image: url(poetry-of-tools.png);
+  background-size: contain;
+  /* background: #f7f9dd; */
 }
