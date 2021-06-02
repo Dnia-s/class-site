@@ -1,0 +1,114 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin:0;
+background: #453f3c;
+}
+
+img {
+  max-width: 425px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-family: bookmania,serif;
+  font-weight: 600;
+  font-style: italic;
+  color: #fdfffc;
+  text-shadow: 5px 5px #f06543;
+}
+
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   height: 100vh;
+   width: 100%;
+   /* background: yellow; */
+ }
+
+ .column {
+  /* background: white; */
+  display: flex;
+  /* width: 20%;
+  height: 100%; */
+ }
+
+ .top{
+   display: flex;
+   width: 10%;
+   height: 100%;
+ }
+
+ .bottom{
+   display: flex;
+   width: 10%;
+   height: 100%;
+ }
+
+ .row{
+  display: flex;
+  /* height: 20%;
+  width: 100%; */
+ }
+
+ .box {
+  /* background: #7678ed; */
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  /* text-align: center; */
+ }
+
+.middle {
+  display: block;
+  width: 75%;
+  height: 100%;
+}
+
+.one {
+  width: 100%;
+  height: 66%;
+  background-image: url(c&p2.jpg);
+  background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+  /* background: #f7f9dd; */
+}
+
+.two {
+  width: 100%;
+  height: 76%;
+  /* background: #f7f9dd; */
+}
+
+.three {
+  width: 100%;
+  height: 75%;
+  background-image: url(col.jpg);
+  background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+  /* background: #f7f9dd; */
+}
+
+.four {
+  width: 100%;
+  height: 63%;
+  /* background: #f7f9dd; */
+}
+
+.five {
+  width: 100%;
+  height: 75%;
+  background-image: url(inf.mirror.jpg);
+  background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+  /* background: #f7f9dd; */
+}
+
+.
